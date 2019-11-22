@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(208, 231, 208);
+    color: green;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+video {
+    width: 60%;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:600px){
+    .wrapper {
+        width: 100%;
+    }
+    video {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
