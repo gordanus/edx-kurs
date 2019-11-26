@@ -16,6 +16,9 @@ video {
 h2 {
     margin-top: 50px;
 }
+p{
+    margin:0;
+}
 
 @media screen and (max-width:600px){
     .wrapper {
@@ -29,5 +32,8 @@ h2 {
     }
     h2 {
         font-size: 1em;
+    }
+    p{
+        font-size: 0.8em;
     }
 }
